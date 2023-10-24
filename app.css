@@ -1,0 +1,355 @@
+p {
+  font-size: 16px; /* 1 rem = 16px */
+}
+
+h1 {
+  font-size: 48px; /* 3 fois la taille du texte du corps (16px * 3) */
+}
+
+h2 {
+  font-size: 32px; /* 2 fois la taille du texte du corps (16px * 2) */
+}
+
+h3 {
+  font-size: 24px; /* 1,5 fois la taille du texte du corps (16px * 1.5) */
+}
+.margin_bas {
+  margin-bottom: 10px;
+}
+.container {
+  width: 100%;
+
+  position: relative;
+}
+.nav {
+  height: 500px;
+  width: 100px;
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 25px;
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.nav a img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 25px;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content_header {
+  height: 500px;
+
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.my_image {
+  border-radius: 50%;
+  height: 320px;
+  width: 320px;
+  margin-right: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(222, 222, 222);
+}
+.my_image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: grayscale(1);
+}
+.presentation {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+.coordonnees a {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.coordonnees a:nth-child(3) {
+  margin-bottom: 25px;
+}
+.coordonnees a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.reseaux {
+  display: flex;
+}
+.reseaux a {
+  display: flex;
+
+  width: 25px;
+  margin: 10px 10px 0 0;
+}
+.competences {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+}
+.title_competences {
+  width: calc(100% - 100px);
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.container_competences {
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
+
+  display: flex;
+}
+.competences_bar {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description_bar {
+  width: 600px;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bar {
+  width: 300px;
+  height: 10px;
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 25px;
+  display: flex;
+}
+.bar_contain {
+  width: 280px;
+  height: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+}
+.html {
+  display: flex;
+  margin-bottom: 25px;
+}
+.html .text_pour {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 10px;
+}
+.css {
+  display: flex;
+  margin-bottom: 25px;
+}
+.css .text_pour {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 10px;
+}
+.js {
+  display: flex;
+  margin-bottom: 25px;
+}
+.js .text_pour {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 10px;
+}
+.reactjs {
+  display: flex;
+  margin-bottom: 25px;
+}
+.reactjs .text_pour {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 10px;
+}
+.php {
+  display: flex;
+  margin-bottom: 25px;
+}
+.php .text_pour {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 10px;
+}
+.competences_card {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_card {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+
+  border: solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid 1px rgba(0, 0, 0, 0);
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border: solid 1px rgb(0, 0, 0);
+  margin-bottom: 25px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card:hover {
+  border: solid 1px rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.card img {
+  width: 60px;
+  height: 60px;
+}
+
+.margin_title {
+  margin-bottom: 10px;
+}
+.experience_pro {
+  width: 100%;
+
+  height: 100vh;
+}
+.title_experience {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.container_exper_pro {
+  height: calc(100vh - 100px);
+
+  width: calc(100% - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exper_pro {
+  width: 50%;
+  height: 70%;
+
+  margin-top: 25px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.containerb_bar_central {
+  position: absolute;
+  height: 70%;
+  border: solid 0.5px rgb(0, 0, 0);
+
+  right: 50%;
+}
+.act_experience {
+  width: 100%;
+  height: 200px;
+
+  display: flex;
+}
+.title_experiencee {
+  width: calc(50% - 25px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.container_activite {
+  width: calc(50% - 25px);
+}
+.container_point {
+  height: 100%;
+  width: 50px;
+
+  display: flex;
+  justify-content: center;
+}
+.point {
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+}
+.formations {
+  width: 100%;
+
+  height: 100vh;
+}
+.projets {
+  width: 100%;
+
+  height: 100vh;
+}
+.swiper {
+  width: 70%;
+  height: 50%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 25px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.loisirs {
+  width: 100%;
+
+  height: 100vh;
+}
